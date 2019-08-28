@@ -1,15 +1,9 @@
 {
   "name": "browser-imports",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
     "dev": "node_modules/.bin/webpack --config webpack.config.js",
     "test": "echo \"You are a naughty person and should be punished\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.3.3",
     "babel-loader": "^8.0.6",
