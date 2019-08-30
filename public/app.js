@@ -100,11 +100,11 @@ return /******/ (function(modules) { // webpackBootstrap
 /*!*************************!*\
   !*** ./src/js/index.js ***!
   \*************************/
-/*! exports provided: default */
+/*! exports provided: plop, wiz, LOVES_TACOS */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _plop__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./plop */ \"./src/js/plop.js\");\n/* harmony import */ var _wiz__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./wiz */ \"./src/js/wiz.js\");\n\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n  plop: _plop__WEBPACK_IMPORTED_MODULE_0__,\n  wiz: _wiz__WEBPACK_IMPORTED_MODULE_1__\n});\n\n//# sourceURL=webpack://apple/./src/js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"LOVES_TACOS\", function() { return LOVES_TACOS; });\n/* harmony import */ var _plop__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./plop */ \"./src/js/plop.js\");\n/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, \"plop\", function() { return _plop__WEBPACK_IMPORTED_MODULE_0__; });\n/* harmony import */ var _wiz__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./wiz */ \"./src/js/wiz.js\");\n/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, \"wiz\", function() { return _wiz__WEBPACK_IMPORTED_MODULE_1__; });\n\n\n\nconst LOVES_TACOS = true;\n\n//# sourceURL=webpack://apple/./src/js/index.js?");
 
 /***/ }),
 

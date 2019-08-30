@@ -6,8 +6,12 @@
     <script src="./app.js"></script>
     <script type="module">
       console.log('apple', apple)
-      console.log('apple.default.plop.default', apple.default.plop.default)
-      console.log('apple.default.plop.plop2', apple.default.plop.plop2)
+      apple.plop.default()
+      apple.plop.plop2()
+    </script>
+    <script type="module">
+      import * as app from './app.js'
+      console.log('app', app)
     </script>
   </body>
 </html>

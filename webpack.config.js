@@ -9,7 +9,9 @@ module.exports = {
     path: path.resolve(__dirname, 'public'),
     library: 'apple',
     libraryTarget: 'umd',
-    filename: 'app.js',
+    // publicPath: '',
+    // umdNamedDefine: true,
+    // globalObject: 'this' // https://webpack.js.org/configuration/output/#outputglobalobject
   },
   target: 'web',
   module: {
@@ -30,5 +32,3 @@ module.exports = {
     ],
   },
 }
-
-// globalObject: 'this' // https://webpack.js.org/configuration/output/#outputglobalobject
